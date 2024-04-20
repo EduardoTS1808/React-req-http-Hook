@@ -1,12 +1,10 @@
 import './App.css';
-import Form from './components/form/form'
+import Formulario from './components/form/formHook'
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-
-
-        <div><Form/></div>
+        <div><Formulario/></div>
       </header>
     </div>
   );
